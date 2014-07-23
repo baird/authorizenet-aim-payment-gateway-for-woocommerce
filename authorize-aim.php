@@ -127,9 +127,9 @@ function woocommerce_tech_authoaim_init() {
       {
          if ( $this->description ) 
             echo wpautop(wptexturize($this->description));
-            echo '<label style="margin-right:46px; line-height:40px;">Credit Card :</label> <input type="text" name="aim_credircard" /><br/>';
+            echo '<label style="margin-right:46px; line-height:40px;">Credit Card :</label> <input type="text" name="aim_creditcard" /><br/>';
             echo '<label style="margin-right:30px; line-height:40px;">Expiry (MMYY) :</label> <input type="text"  style="width:50px;" name="aim_ccexpdate" maxlength="4" /><br/>';
-            echo '<label style="margin-right:89px; line-height:40px;">CVV :</label> <input type="text" name="aim_ccvnumber"  maxlength=4 style="width:40px;" /><br/>';
+            echo '<label style="margin-right:89px; line-height:40px;">CVV :</label> <input type="text" name="aim_ccvnumber"  maxlength=4 style="width:50px;" /><br/>';
       }
       
       /*
